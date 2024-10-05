@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Estilos de la barra de navegacion */
+
+nav{
+    display: flex;
+    height: 5.7rem;
+    justify-content: space-between;
+    padding: 1.3% 5%;
+}
+
+nav p{
+    font-size: 24px;
+    font-weight: 700;
+    align-content: center;
+}
+
+nav div.buttons{
+    align-items: center;
+    display: flex;
+    gap: 2.8rem;
+}
+
+nav div.buttons a.buttonLogin{
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #96BB7C;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.9rem 1.5rem;
+}
+
+nav div.buttons a.buttonLogin:hover{
+    border: 2px solid #96BB7C;
+    border-radius: 5px;
+    padding: 0.9rem 1.5rem;
+}
+
+nav div.buttons a.buttonJoin{
+    background-color: #96BB7C;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 0.9rem 1.5rem;
+    text-decoration: none;
+}
+
+/* Estilos del Header */
+
+Header{
+    background: #DDF4FF;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+    padding-top: 6rem;
+}
+
+Header div.containerHeader{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    margin-left: 8.25rem;
+}
+
+Header div.containerHeader h5{
+    color: #96BB7C;
+    font-size: 16px;
+}
+
+Header div.containerHeader h1{
+    color: #252B42;
+    font-size: 58px;
+}
+
+Header div.containerHeader h4{
+    color: #737373;
+    font-size: 20px;
+    font-weight: 400;
+    width: 468px;
+}
+
+div.containerHeader div.containerHeaderEnlaces{
+    display: flex;
+    gap: 10px;
+}
+
+div.containerHeader div.containerHeaderEnlaces a.link1{
+    background-color: #96BB7C;
+    border: 2px solid #96BB7C;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+}
+
+div.containerHeader div.containerHeaderEnlaces a.link1:hover{
+    background-color: #96bb7c00;
+    border: 2px solid #96BB7C;
+    color: #96BB7C;
+}
+
+div.containerHeader div.containerHeaderEnlaces a.link2{
+    border: 2px solid #96BB7C;
+    border-radius: 5px;
+    color: #96BB7C;
+    font-weight: 700;
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+}
+
+/* Estilos de la seccion clientes satisfechos*/
+
+section.clientesSatisfechos{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 5rem 12.2rem;
+}
+
+section.clientesSatisfechos div.item{
+    text-align: center;
+    width: 14.875rem;
+}
+
+section.clientesSatisfechos div.item h1{
+    color: #96BB7C;
+    line-height: 80px;
+    font-size: 58px;
+}
+
+section.clientesSatisfechos div.item h5{
+    color: #252B42;
+    font-size: 1rem;
+}
+
+/* Estilos de la seccion educación de calidad */
+
+section.educacionDeCalidad{
+    background-color: #FFF2F3;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 10rem 12.1875rem ;
+}
+
+section.educacionDeCalidad div.container{
+    display: flex;
+    gap: 1.875rem;
+}
+
+section.educacionDeCalidad h2{
+    color: #252B42;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+section.educacionDeCalidad div.container div.card{
+    background-color: #fff;
+    box-shadow: 5px 5px 10px #e2dcdd;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 35px 40px;
+}
+
+section.educacionDeCalidad div.container div.card img.logo{
+    width: 72px;
+    height: 72px;
+}
+
+section.educacionDeCalidad div.container div.card h5{
+    color: #252B42;
+    font-size: 1rem;
+}
+
+section.educacionDeCalidad div.container div.card img{
+    height: auto;
+    width: 50px;
+}
+
+section.educacionDeCalidad div.container div.card p{
+    color: #737373;
+    font-size: 0.875rem    ;
+}
+
+/* Estilos del Footer */
+
+footer{
+    align-items: center;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5625rem 12.1875rem;
+}
+
+footer h6{
+    color: #737373;
+    font-size: 14px;
+    font-weight: 700;
+}
